@@ -29,12 +29,15 @@ public class Table {
     }
     //拿去蛋糕
     public synchronized String take()throws InterruptedException{
+        //使用了Guarded Suspension模式，守护条件是while条件表达式的逻辑非运算 count>0
+        //当前桌子上放置的蛋糕个数大于0 作为取蛋糕的take方法的守护条件
         while (count<=0){
             wait();
         }
         String cake=buffer[head];
         head=(head+1)%buffer.length;
         count--;
+        //至此，蛋糕已经被拿走了，桌子上的状态发了变化，需要执行notifyAll，唤醒所有正在wait的线程
         notifyAll();
         System.out.println(Thread.currentThread().getName() + " takes "+cake);
         return cake;

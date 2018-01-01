@@ -4,6 +4,12 @@ package com.renshihan.thread.producer_consumer;
  * Created by admin on 2017/12/30.
  * 模拟场景：
  * 有3位糕点师制作蛋糕并放在桌子上，然后有3位客人来吃这些糕点
+ * 角色：DATA - 由生产者角色生成
+ *      PRODUCER - 生成DATA，并传递给CHANNEL角色
+ *      CONSUMER - 从CHANNEL角色中获取DATA角色并使用
+ *      CHANNEL  - 保管从PRODUCER角色中获取的DATA角色，还会响应CONSUMER角色的请求，传递DATA角色。为了确保安全性，
+ * CHANNEL角色会对PRODUCER角色和CONSUMER角色的访问执行互斥处理。
+ *
  */
 public class Main {
     public static void main(String[] args) {
