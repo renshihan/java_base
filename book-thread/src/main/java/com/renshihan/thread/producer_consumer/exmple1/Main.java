@@ -1,4 +1,4 @@
-package com.renshihan.thread.producer_consumer;
+package com.renshihan.thread.producer_consumer.exmple1;
 
 /**
  * Created by admin on 2017/12/30.

@@ -1,6 +1,6 @@
-package com.renshihan.thread.producer_consumer;
+package com.renshihan.thread.producer_consumer.exmple1;
 
-import javafx.scene.control.Tab;
+import com.renshihan.thread.producer_consumer.exmple1.Table;
 
 import java.util.Random;
 

@@ -1,5 +1,7 @@
-package com.renshihan.thread.producer_consumer;
+package com.renshihan.thread.producer_consumer.exmple1;
 
+
+import com.renshihan.thread.producer_consumer.exmple1.Table;
 
 import java.util.Random;
 
