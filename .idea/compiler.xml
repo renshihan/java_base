@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="base" />
         <module name="book-thread" />
-        <module name="javabase" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
       <module name="book-thread" target="1.8" />
       <module name="javabase" target="1.8" />
     </bytecodeTargetLevel>

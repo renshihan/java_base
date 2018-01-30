@@ -4,8 +4,12 @@
 
     <groupId>com.renshihan.javabase</groupId>
     <artifactId>javabase</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>base</module>
+        <module>book-thread</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>javabase</name>
     <url>http://maven.apache.org</url>

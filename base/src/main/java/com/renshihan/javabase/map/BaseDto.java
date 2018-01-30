@@ -1,4 +1,4 @@
-package com.renshihan.javabase.base.map;
+package com.renshihan.javabase.map;
 
 import java.util.*;
 

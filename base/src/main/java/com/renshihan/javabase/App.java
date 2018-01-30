@@ -1,7 +1,5 @@
 package com.renshihan.javabase;
 
-import java.util.Map;
-
 /**
  * Hello world!
  *

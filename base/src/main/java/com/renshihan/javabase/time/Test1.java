@@ -1,8 +1,6 @@
 package com.renshihan.javabase.time;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 
 /**
  * Created by admin on 2017/8/21.
