@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="book-thread" />
+        <module name="spring-boot-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.8" />
       <module name="book-thread" target="1.8" />
-      <module name="javabase" target="1.8" />
+      <module name="spring-boot-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
