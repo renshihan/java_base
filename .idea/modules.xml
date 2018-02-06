@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/archaius-study/archaius-study.iml" filepath="$PROJECT_DIR$/archaius-study/archaius-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-thread/book-thread.iml" filepath="$PROJECT_DIR$/book-thread/book-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_base.iml" filepath="$PROJECT_DIR$/.idea/java_base.iml" />
