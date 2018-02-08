@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/book-smart/book-smart-chapter1" />
+    <file type="web" url="file://$PROJECT_DIR$/book-smart/book-smart-chapter2" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/base/pom.xml" />
-        <option value="$PROJECT_DIR$/book-thread/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-study/pom.xml" />
         <option value="$PROJECT_DIR$/archaius-study/pom.xml" />
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/book-smart/pom.xml" />
+        <option value="$PROJECT_DIR$/book-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/commons-lang/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-study/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
 </project>

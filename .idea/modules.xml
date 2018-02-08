@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/archaius-study/archaius-study.iml" filepath="$PROJECT_DIR$/archaius-study/archaius-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart.iml" filepath="$PROJECT_DIR$/book-smart/book-smart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart-chapter1/book-smart-chapter1.iml" filepath="$PROJECT_DIR$/book-smart/book-smart-chapter1/book-smart-chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart-chapter2/book-smart-chapter2.iml" filepath="$PROJECT_DIR$/book-smart/book-smart-chapter2/book-smart-chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-thread/book-thread.iml" filepath="$PROJECT_DIR$/book-thread/book-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-lang/commons-lang.iml" filepath="$PROJECT_DIR$/commons-lang/commons-lang.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_base.iml" filepath="$PROJECT_DIR$/.idea/java_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" filepath="$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" />
     </modules>

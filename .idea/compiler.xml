@@ -8,14 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="archaius-study" />
         <module name="base" />
+        <module name="book-smart-chapter1" />
+        <module name="book-smart-chapter2" />
         <module name="book-thread" />
+        <module name="commons-lang" />
         <module name="spring-boot-study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="archaius-study" target="1.7" />
       <module name="base" target="1.8" />
+      <module name="book-smart" target="1.8" />
+      <module name="book-smart-chapter1" target="1.8" />
+      <module name="book-smart-chapter2" target="1.8" />
       <module name="book-thread" target="1.8" />
+      <module name="commons-lang" target="1.5" />
       <module name="spring-boot-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>
