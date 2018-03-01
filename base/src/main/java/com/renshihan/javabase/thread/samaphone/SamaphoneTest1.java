@@ -1,7 +1,7 @@
 package com.renshihan.javabase.thread.samaphone;
 
 
-public class SamaphoneTest {
+public class SamaphoneTest1 {
     private boolean signal=false;
     public synchronized void take(){
         this.signal=true;
@@ -13,4 +13,5 @@ public class SamaphoneTest {
         }
         this.signal=false;
     }
+
 }
