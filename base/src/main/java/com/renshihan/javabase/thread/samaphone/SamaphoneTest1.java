@@ -14,4 +14,8 @@ public class SamaphoneTest1 {
         this.signal=false;
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
