@@ -14,7 +14,7 @@ public class SSLServer {
     private static final String PASSWORD="123456";
     //服务器端保密内容
     private static final String CONTENT=
-            "This is confidential content from server X, for your eye!";
+            "This is confidential content from client X, for your eye!";
     private SSLServerSocket sslServerSocket=null;
     public SSLServer()throws IOException{
         //通过套接字
