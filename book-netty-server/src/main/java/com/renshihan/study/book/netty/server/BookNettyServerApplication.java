@@ -1,12 +1,12 @@
-package com.renshihan.study.booknetty;
+package com.renshihan.study.book.netty.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookNettyApplication {
+public class BookNettyServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookNettyApplication.class, args);
+		SpringApplication.run(BookNettyServerApplication.class, args);
 	}
 }
