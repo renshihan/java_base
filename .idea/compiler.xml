@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="archaius-study" />
         <module name="base" />
+        <module name="book-netty-client" />
+        <module name="book-netty-server" />
         <module name="book-smart-chapter1" />
         <module name="book-smart-chapter2" />
         <module name="book-thread" />
@@ -18,6 +20,9 @@
     <bytecodeTargetLevel>
       <module name="archaius-study" target="1.7" />
       <module name="base" target="1.8" />
+      <module name="book-netty" target="1.8" />
+      <module name="book-netty-client" target="1.8" />
+      <module name="book-netty-server" target="1.8" />
       <module name="book-smart" target="1.8" />
       <module name="book-smart-chapter1" target="1.8" />
       <module name="book-smart-chapter2" target="1.8" />

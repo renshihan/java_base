@@ -68,6 +68,7 @@
             <artifactId>hystrix-javanica</artifactId>
             <version>1.5.10</version>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>
