@@ -1,4 +1,4 @@
-package com.renshihan.study.booknetty;
+package com.renshihan.study.book.netty.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
