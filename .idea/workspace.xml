@@ -2,70 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56235e0-9f62-4ef4-a2c0-b3c01dd1e5c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_22_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/mvnw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/mvnw.cmd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/BookRedisClientApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/client/EchoClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/handler/EchoClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/mvnw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/mvnw.cmd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/resources/application-dev.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/DateHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/JsonUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/MD5Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/NumberHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/ParamUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/RandomHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/SafeUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/StringHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ClientTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ServerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/mvnw" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/mvnw.cmd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/client/EchoClient.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/handler/EchoClientHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/archaius-study/target/" />
     <ignored path="$PROJECT_DIR$/book-smart/book-smart-chapter1/target/" />
@@ -97,50 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EchoServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="35" column="98" lean-forward="false" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/handler/EchoClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/client/EchoClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1245#1514#0" expanded="true" />
-                <element signature="e#1513#1514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-611">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book-redis/book-redis-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,20 +54,10 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            <state relative-caret-position="494">
+              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -174,8 +66,62 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookRedisClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/BookRedisClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCtrl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -257,9 +203,13 @@
         <option value="$PROJECT_DIR$/book-redis/pom.xml" />
         <option value="$PROJECT_DIR$/book-redis/book-redis-test/pom.xml" />
         <option value="$PROJECT_DIR$/book-redis/book-redis-server/pom.xml" />
-        <option value="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
-        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -375,7 +325,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
@@ -418,10 +368,13 @@
       <recent name="E:\git_2\java_base\book-netty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.renshihan.study.book.netty.redis.controller" />
+      <recent name="com.renshihan.study.book.netty.redis.util" />
       <recent name="com.renshihan.study.book.netty.client.echo.handler" />
       <recent name="com.renshihan.study.book.netty.test.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_2\java_base\book-redis\book-redis-client\src\main\java\com\renshihan\study\book\netty\redis" />
       <recent name="E:\git_2\java_base" />
       <recent name="E:\git_2\java_base\book-netty\book-netty-test\src\main\java\com\renshihan\study\book\netty\test\util" />
       <recent name="E:\git_2\java_base\book-netty-server\src\main\resources" />
@@ -439,12 +392,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RunManager" selected="Application.BookRedisClientApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="BookRedisClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.renshihan.study.book.netty.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.study.book.netty.redis.BookRedisClientApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="book-redis-client" />
+      <envs />
     </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -928,7 +900,7 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="10">
+    <list size="11">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ArchaiusStudyApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SubSmpayApplication" />
       <item index="2" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
@@ -939,13 +911,15 @@
       <item index="7" class="java.lang.String" itemvalue="Application.EchoServer" />
       <item index="8" class="java.lang.String" itemvalue="JUnit.ServerTest.server1" />
       <item index="9" class="java.lang.String" itemvalue="Application.EchoClient" />
+      <item index="10" class="java.lang.String" itemvalue="Application.BookRedisClientApplication" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.EchoClient" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ServerTest.server1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EchoServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BookRedisClientApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EchoClient" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ServerTest.server1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EchoServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -1044,7 +1018,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521700577638</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="redis">
+      <created>1521714487549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521714487549</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1059,7 +1040,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28266000" />
+    <option name="totallyTimeSpent" value="30558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1137,53 +1118,14 @@
     <MESSAGE value="优化" />
     <MESSAGE value="新加入netty-server和netty-client" />
     <MESSAGE value="添加test测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加test测试类" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/callback/AsyncTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/future/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SamaphoneTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SamaphoneTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1499,9 +1441,9 @@
         <state relative-caret-position="338">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1245#1514#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1245#1514#0" expanded="false" />
+            <element signature="e#1513#1514#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1530,14 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1556,11 +1490,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        <state relative-caret-position="494">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/BookRedisClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
