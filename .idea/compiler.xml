@@ -9,8 +9,12 @@
         <module name="archaius-study" />
         <module name="base" />
         <module name="book-netty-client" />
+        <module name="book-netty-client (1)" />
         <module name="book-netty-server" />
         <module name="book-netty-test" />
+        <module name="book-redis-client" />
+        <module name="book-redis-server" />
+        <module name="book-redis-test" />
         <module name="book-smart-chapter1" />
         <module name="book-smart-chapter2" />
         <module name="book-thread" />
@@ -23,8 +27,13 @@
       <module name="base" target="1.8" />
       <module name="book-netty" target="1.8" />
       <module name="book-netty-client" target="1.8" />
+      <module name="book-netty-client (1)" target="1.8" />
       <module name="book-netty-server" target="1.8" />
       <module name="book-netty-test" target="1.8" />
+      <module name="book-redis" target="1.8" />
+      <module name="book-redis-client" target="1.8" />
+      <module name="book-redis-server" target="1.8" />
+      <module name="book-redis-test" target="1.8" />
       <module name="book-smart" target="1.8" />
       <module name="book-smart-chapter1" target="1.8" />
       <module name="book-smart-chapter2" target="1.8" />

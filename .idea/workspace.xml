@@ -2,56 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56235e0-9f62-4ef4-a2c0-b3c01dd1e5c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_unknown.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcomponents_core_4_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/DateHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/JsonUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MD5Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MapHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MsgUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/NumberHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/ParamUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RandomHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RequestUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/SafeUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/StringHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/XmlUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_22_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.mvn/wrapper/maven-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/.mvn/wrapper/maven-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.mvn/wrapper/maven-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/.mvn/wrapper/maven-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/mvnw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/mvnw.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/BookRedisClientApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/client/EchoClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/handler/EchoClientHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.mvn/wrapper/maven-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/.mvn/wrapper/maven-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/mvnw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/mvnw.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/resources/application-dev.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-server/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/DateHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/JsonUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/MD5Utils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/NumberHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/ParamUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/RandomHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/SafeUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/main/java/com/renshihan/study/book/netty/test/util/StringHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ClientTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ServerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/mvnw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/mvnw.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/pom.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/.gitignore" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/mvnw" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/mvnw" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/mvnw.cmd" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/mvnw.cmd" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/pom.xml" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/BookNettyClientApplication.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/BookNettyClientApplication.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/book-netty-client/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-client/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/.gitignore" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/.mvn/wrapper/maven-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/.mvn/wrapper/maven-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/mvnw" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/mvnw" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/mvnw.cmd" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/mvnw.cmd" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/pom.xml" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/main/resources/application-dev.properties" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/book-netty-server/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" afterPath="$PROJECT_DIR$/book-netty/book-netty-server/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/book-netty/pom.xml" afterPath="$PROJECT_DIR$/book-netty/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/book-netty/src/main/java/com/renshihan/study/book/netty/client/BookNettyApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/book-netty/src/main/resources/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/book-netty/src/test/java/com/renshihan/study/book/netty/client/BookNettyApplicationTests.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/archaius-study/target/" />
     <ignored path="$PROJECT_DIR$/book-smart/book-smart-chapter1/target/" />
@@ -67,6 +81,10 @@
     <ignored path="$PROJECT_DIR$/book-netty/book-netty-test/target/" />
     <ignored path="$PROJECT_DIR$/book-netty/book-netty-server/target/" />
     <ignored path="$PROJECT_DIR$/book-netty/book-netty-client/target/" />
+    <ignored path="$PROJECT_DIR$/book-redis/book-redis-test/target/" />
+    <ignored path="$PROJECT_DIR$/book-redis/target/" />
+    <ignored path="$PROJECT_DIR$/book-redis/book-redis-client/target/" />
+    <ignored path="$PROJECT_DIR$/book-redis/book-redis-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,102 +97,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XmlUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/XmlUtils.java">
+      <file leaf-file-name="EchoServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="35" column="98" lean-forward="false" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/SafeUtil.java">
+      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/handler/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="487">
+              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RandomHelper.java">
+      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/client/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MapHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpTransport.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="150" column="35" lean-forward="false" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+            <state relative-caret-position="338">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1245#1514#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/StringHelper.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MD5Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MD5Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="-611">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/pom.xml">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="54">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httpcomponents-core-4.4.6.pom" pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvnw.cmd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/mvnw.cmd">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -195,6 +215,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>netty</find>
+      <find>接收到服务器返回的信息</find>
+      <find>nioEventLoopGroup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,6 +249,17 @@
         <option value="$PROJECT_DIR$/book-netty/book-netty-test/pom.xml" />
         <option value="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/StringHelper.java" />
         <option value="$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java" />
+        <option value="$PROJECT_DIR$/book-netty/book-netty-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ServerTest.java" />
+        <option value="$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/handler/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/handler/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/client/EchoClient.java" />
+        <option value="$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/book-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-server/pom.xml" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java" />
       </list>
     </option>
   </component>
@@ -249,11 +282,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="475" />
+    <option name="y" value="10" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -291,69 +324,34 @@
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-test" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-test" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -361,12 +359,32 @@
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty-test" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +401,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/book-netty/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book-redis/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -400,12 +418,13 @@
       <recent name="E:\git_2\java_base\book-netty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.renshihan.study.book.netty.client.echo.handler" />
       <recent name="com.renshihan.study.book.netty.test.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_2\java_base" />
       <recent name="E:\git_2\java_base\book-netty\book-netty-test\src\main\java\com\renshihan\study\book\netty\test\util" />
       <recent name="E:\git_2\java_base\book-netty-server\src\main\resources" />
-      <recent name="E:\git_2\java_base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,12 +439,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoServer">
+  <component name="RunManager" selected="Application.EchoClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.renshihan.study.book.netty.client.echo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.study.book.netty.client.echo.client.EchoClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="book-netty-client" />
+      <envs />
     </configuration>
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -486,6 +524,31 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration name="ServerTest.server1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.renshihan.study.book.netty.test.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="book-netty-test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.renshihan.study.book.netty.test.chapter1" />
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.study.book.netty.test.chapter1.ServerTest" />
+      <option name="METHOD_NAME" value="server1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -865,7 +928,7 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="8">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ArchaiusStudyApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SubSmpayApplication" />
       <item index="2" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
@@ -874,11 +937,15 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.BookNettyApplication (1)" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.BookNettyServerApplication" />
       <item index="7" class="java.lang.String" itemvalue="Application.EchoServer" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.ServerTest.server1" />
+      <item index="9" class="java.lang.String" itemvalue="Application.EchoClient" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.EchoServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.EchoClient" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ServerTest.server1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EchoServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SamaphoneTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -963,17 +1030,42 @@
       <option name="project" value="LOCAL" />
       <updated>1521623854107</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加test测试类">
+      <created>1521684926573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1521684926573</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加test测试类">
+      <created>1521700577637</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521700577638</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ServerTest_server1 - 2018.03.22 at 11h 32m 19s.xml">
+      <configuration name="ServerTest.server1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_server1 - 2018.03.22 at 11h 32m 40s.xml">
+      <configuration name="ServerTest.server1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerTest_server1 - 2018.03.22 at 12h 40m 18s.xml">
+      <configuration name="ServerTest.server1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15439000" />
+    <option name="totallyTimeSpent" value="28266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -988,7 +1080,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1044,70 +1136,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="优化" />
     <MESSAGE value="新加入netty-server和netty-client" />
-    <option name="LAST_COMMIT_MESSAGE" value="新加入netty-server和netty-client" />
+    <MESSAGE value="添加test测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加test测试类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SamaphoneTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-thread/mvnw" />
-    <entry file="jar://E:/a_myjar/com/netflix/hystrix/hystrix-core/1.5.10/hystrix-core-1.5.10.jar!/com/netflix/hystrix/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/cache/hystrix/GetProductServiceCommand.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/producer_consumer/exmple1/EaterThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/producer_consumer/exmple1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/producer_consumer/exmple1/MakerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1190,22 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/BookNettyClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.19.Final/netty-all-4.1.19.Final.jar!/io/netty/channel/ChannelHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1270,31 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#734#761#1" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#1433#1950#0" expanded="false" />
-            <element signature="e#1949#1950#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1319,26 +1314,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#458#459#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MsgUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1415,7 +1391,7 @@
         <state relative-caret-position="228">
           <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1428,13 +1404,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/BookNettyServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MsgUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/handler/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/test/java/com/renshihan/study/book/netty/test/chapter1/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/HttpTransport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="150" column="35" lean-forward="false" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+        <state relative-caret-position="-210">
+          <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/server/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="60" lean-forward="false" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/BookNettyClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/java/com/renshihan/study/book/netty/server/echo/handler/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="98" lean-forward="false" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/handler/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/src/main/java/com/renshihan/study/book/netty/client/echo/client/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1245#1514#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,7 +1618,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>book-netty</last-edited>
+          <last-edited>book-redis-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

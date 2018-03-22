@@ -6,6 +6,10 @@
     <file url="file://$PROJECT_DIR$/book-netty/book-netty-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-netty/book-netty-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-netty/book-netty-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-redis/book-redis-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-redis/book-redis-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-redis/book-redis-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-smart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-smart/book-smart-chapter1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-smart/book-smart-chapter2" charset="UTF-8" />

@@ -8,6 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/book-netty/book-netty-client/book-netty-client.iml" filepath="$PROJECT_DIR$/book-netty/book-netty-client/book-netty-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-netty/book-netty-server/book-netty-server.iml" filepath="$PROJECT_DIR$/book-netty/book-netty-server/book-netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-netty/book-netty-test/book-netty-test.iml" filepath="$PROJECT_DIR$/book-netty/book-netty-test/book-netty-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-redis/book-redis.iml" filepath="$PROJECT_DIR$/book-redis/book-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-redis/book-redis-client/book-redis-client.iml" filepath="$PROJECT_DIR$/book-redis/book-redis-client/book-redis-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-redis/book-redis-server/book-redis-server.iml" filepath="$PROJECT_DIR$/book-redis/book-redis-server/book-redis-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-redis/book-redis-test/book-redis-test.iml" filepath="$PROJECT_DIR$/book-redis/book-redis-test/book-redis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart.iml" filepath="$PROJECT_DIR$/book-smart/book-smart.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart-chapter1/book-smart-chapter1.iml" filepath="$PROJECT_DIR$/book-smart/book-smart-chapter1/book-smart-chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/book-smart/book-smart-chapter2/book-smart-chapter2.iml" filepath="$PROJECT_DIR$/book-smart/book-smart-chapter2/book-smart-chapter2.iml" />
