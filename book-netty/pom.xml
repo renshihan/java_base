@@ -49,8 +49,9 @@
 
 	</dependencies>
 	<modules>
-		<module>../book-netty-server</module>
-		<module>../book-netty-client</module>
+		<module>book-netty-server</module>
+		<module>book-netty-client</module>
+		<module>book-netty-test</module>
 	</modules>
 	<build>
 		<plugins>

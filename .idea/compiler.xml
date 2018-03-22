@@ -10,6 +10,7 @@
         <module name="base" />
         <module name="book-netty-client" />
         <module name="book-netty-server" />
+        <module name="book-netty-test" />
         <module name="book-smart-chapter1" />
         <module name="book-smart-chapter2" />
         <module name="book-thread" />
@@ -23,6 +24,7 @@
       <module name="book-netty" target="1.8" />
       <module name="book-netty-client" target="1.8" />
       <module name="book-netty-server" target="1.8" />
+      <module name="book-netty-test" target="1.8" />
       <module name="book-smart" target="1.8" />
       <module name="book-smart-chapter1" target="1.8" />
       <module name="book-smart-chapter2" target="1.8" />
