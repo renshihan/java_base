@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56235e0-9f62-4ef4-a2c0-b3c01dd1e5c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/DateHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/HttpTransport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/JsonUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/MD5Utils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/NumberHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/ParamUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/RandomHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/SafeUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/StringHelper.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/client/EchoClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/echo/handler/EchoClientHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/commons-lang/commons-lang.iml" afterPath="$PROJECT_DIR$/commons-lang/commons-lang.iml" />
+      <change beforePath="$PROJECT_DIR$/commons-lang/pom.xml" afterPath="$PROJECT_DIR$/commons-lang/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/archaius-study/target/" />
     <ignored path="$PROJECT_DIR$/book-smart/book-smart-chapter1/target/" />
@@ -43,82 +48,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookRedisClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/BookRedisClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCtrl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/util/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/RedisService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archaius-study/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -127,20 +58,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/config/RedisConfig.java">
+      <file leaf-file-name="MyScheduler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/scheduler/MyScheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvnw.cmd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/mvnw.cmd">
+      <file leaf-file-name="ArchaiusController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/controller/ArchaiusController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBconfigurationSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/source/DBconfigurationSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertiesConfigurationSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/source/PropertiesConfigurationSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/a.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/b.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/c.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -210,6 +189,10 @@
         <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/service/impl/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java" />
         <option value="$PROJECT_DIR$/book-redis/book-redis-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/ParamUtils.java" />
+        <option value="$PROJECT_DIR$/commons-lang/pom.xml" />
+        <option value="$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/HttpTransport.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -266,81 +249,6 @@
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="book-redis-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_base" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-lang" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -374,6 +282,7 @@
       <recent name="com.renshihan.study.book.netty.test.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git_2\java_base\commons-lang\src\main\java\com\renshihan\commons\util" />
       <recent name="E:\git_2\java_base\book-redis\book-redis-client\src\main\java\com\renshihan\study\book\netty\redis" />
       <recent name="E:\git_2\java_base" />
       <recent name="E:\git_2\java_base\book-netty\book-netty-test\src\main\java\com\renshihan\study\book\netty\test\util" />
@@ -1025,7 +934,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521714487549</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="redis-client添加并测试">
+      <created>1521716887930</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521716887930</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1040,7 +956,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30558000" />
+    <option name="totallyTimeSpent" value="32137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1119,211 +1035,18 @@
     <MESSAGE value="新加入netty-server和netty-client" />
     <MESSAGE value="添加test测试类" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="redis-client添加并测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis-client添加并测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-thread/mvnw" />
-    <entry file="jar://E:/a_myjar/com/netflix/hystrix/hystrix-core/1.5.10/hystrix-core-1.5.10.jar!/com/netflix/hystrix/HystrixCommand.class" />
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/cache/hystrix/GetProductServiceCommand.java" />
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SemaphoneTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/renshihan/javabase/thread/samaphone/SamaphoneTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.19.Final/netty-all-4.1.19.Final.jar!/io/netty/channel/ChannelHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <marker date="1521618941160" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1521618941160" expanded="false" signature="140:257" ph="..." />
-            <marker date="1521618941160" expanded="true" signature="386:393" ph="{}" />
-            <marker date="1521618941160" expanded="true" signature="434:609" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="643:1012" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="1087:1094" ph="{}" />
-            <marker date="1521618941160" expanded="true" signature="1171:1178" ph="{}" />
-            <marker date="1521618941160" expanded="true" signature="1273:1320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.19.Final/netty-all-4.1.19.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <marker date="1521618941160" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1521618941160" expanded="true" signature="282:289" ph="{}" />
-            <marker date="1521618941160" expanded="true" signature="369:413" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="495:541" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="617:657" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="735:777" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="863:904" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="986:1032" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="1125:1173" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="1261:1313" ph="{...}" />
-            <marker date="1521618941160" expanded="true" signature="1408:1455" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-server/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.19.Final/netty-all-4.1.19.Final.jar!/io/netty/channel/ChannelFuture.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <marker date="1521618941160" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1521618941160" expanded="false" signature="140:227" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons-lang/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/ParamUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/XmlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/RandomHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/MapHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/src/main/java/com/renshihan/study/book/netty/test/util/SafeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1456,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-redis/book-redis-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1477,7 +1192,7 @@
         <state relative-caret-position="266">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1535,18 +1250,233 @@
         <state relative-caret-position="455">
           <caret line="45" column="48" lean-forward="true" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-redis/book-redis-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book-redis/book-redis-client/src/main/java/com/renshihan/study/book/netty/redis/controller/TestCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        <state relative-caret-position="437">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/NumberHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/RandomHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/MD5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-netty/book-netty-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/ParamUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/conn/ssl/X509HostnameVerifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1520826730558" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1520826730558" expanded="false" signature="148:317" ph="..." />
+            <marker date="1520826730558" expanded="true" signature="319:337" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/HttpTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2698#2699#0" expanded="false" />
+            <element signature="e#2718#2719#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/DateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/StringHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/util/SafeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons-lang/src/main/java/com/renshihan/commons/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/scheduler/MyScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/controller/ArchaiusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/source/DBconfigurationSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/java/com/renshihan/study/archaius/study/source/PropertiesConfigurationSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/a.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/b.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/src/main/resources/channel/c.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archaius-study/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,7 +1534,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>book-redis-client</last-edited>
+          <last-edited>commons-lang</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
