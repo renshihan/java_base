@@ -4,6 +4,8 @@ package com.renshihan.study.book.netty.test.util;
 import org.apache.commons.lang.StringUtils;
 
 import java.nio.charset.Charset;
+import java.util.Collection;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -180,6 +182,43 @@ public class StringHelper extends StringUtils {
         }
         return false;
     }
-
-
+    /**
+    * @author: renshihan@winchannel.net
+    * @Description: 支持list，map，普通对象，数组的判空和判null
+    * @Date 2018/3/23 13:39
+    * @Param
+    * @return
+    */
+    public static boolean isNullOrEmpty(Object obj) {
+        try {
+            if (obj == null)
+                return true;
+            if (obj instanceof CharSequence) {
+                return ((CharSequence) obj).length() == 0;
+            }
+            if (obj instanceof Collection) {
+                return ((Collection<?>) obj).isEmpty();
+            }
+            if (obj instanceof Map) {
+                return ((Map<?, ?>) obj).isEmpty();
+            }
+            if (obj instanceof Object[]) {
+                Object[] object = (Object[]) obj;
+                if (object.length == 0) {
+                    return true;
+                }
+                boolean empty = true;
+                for (int i = 0; i < object.length; i++) {
+                    if (!isNullOrEmpty(object[i])) {
+                        empty = false;
+                        break;
+                    }
+                }
+                return empty;
+            }
+            return false;
+        } catch (Exception e) {
+            return true;
+        }
+    }
 }

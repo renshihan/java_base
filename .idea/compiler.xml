@@ -17,17 +17,17 @@
         <module name="book-redis-test" />
         <module name="book-smart-chapter1" />
         <module name="book-smart-chapter2" />
+        <module name="book-test" />
         <module name="book-thread" />
         <module name="commons-lang" />
         <module name="spring-boot-study" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="archaius-study" target="1.7" />
       <module name="base" target="1.8" />
       <module name="book-netty" target="1.8" />
       <module name="book-netty-client" target="1.8" />
-      <module name="book-netty-client (1)" target="1.8" />
       <module name="book-netty-server" target="1.8" />
       <module name="book-netty-test" target="1.8" />
       <module name="book-redis" target="1.8" />
@@ -37,8 +37,9 @@
       <module name="book-smart" target="1.8" />
       <module name="book-smart-chapter1" target="1.8" />
       <module name="book-smart-chapter2" target="1.8" />
+      <module name="book-test" target="1.8" />
       <module name="book-thread" target="1.8" />
-      <module name="commons-lang" target="1.5" />
+      <module name="commons-lang" target="1.8" />
       <module name="spring-boot-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring-boot-study/pom.xml" />
         <option value="$PROJECT_DIR$/book-netty/pom.xml" />
         <option value="$PROJECT_DIR$/book-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/book-test/pom.xml" />
       </list>
     </option>
   </component>
