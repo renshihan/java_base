@@ -20,11 +20,12 @@
         <module name="book-test" />
         <module name="book-thread" />
         <module name="commons-lang" />
+        <module name="java8-test" />
         <module name="spring-boot-study" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="archaius-study" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="archaius-study" target="1.8" />
       <module name="base" target="1.8" />
       <module name="book-netty" target="1.8" />
       <module name="book-netty-client" target="1.8" />
@@ -40,7 +41,8 @@
       <module name="book-test" target="1.8" />
       <module name="book-thread" target="1.8" />
       <module name="commons-lang" target="1.8" />
-      <module name="spring-boot-study" target="1.7" />
+      <module name="java8-test" target="1.8" />
+      <module name="spring-boot-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
