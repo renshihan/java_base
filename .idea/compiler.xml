@@ -25,7 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="archaius-study" target="1.8" />
+      <module name="archaius-study" target="1.7" />
       <module name="base" target="1.8" />
       <module name="book-netty" target="1.8" />
       <module name="book-netty-client" target="1.8" />
@@ -42,7 +42,7 @@
       <module name="book-thread" target="1.8" />
       <module name="commons-lang" target="1.8" />
       <module name="java8-test" target="1.8" />
-      <module name="spring-boot-study" target="1.8" />
+      <module name="spring-boot-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
