@@ -25,9 +25,10 @@ import static java.util.stream.Collectors.toList;
 public class Java8Test {
     private static final List<String> stringList = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl", "", "abc");
     private static final List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+    private static final List<Integer> numbers2 = Arrays.asList( 2, 3, 7, 3, 5);
 
     public static void main(String[] args) {
-
+        System.out.println("---->"+numbers.containsAll(numbers2));
         //
         Random random = new Random();
 //        System.out.println("java-8...");
@@ -129,6 +130,7 @@ public class Java8Test {
                 .collect(toList())
         );
     }
+
 
 
 }
