@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/book-smart/book-smart-chapter1" />
     <file type="web" url="file://$PROJECT_DIR$/book-smart/book-smart-chapter2" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-study/server1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/book-redis/pom.xml" />
         <option value="$PROJECT_DIR$/book-test/pom.xml" />
         <option value="$PROJECT_DIR$/java8-test/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-study/pom.xml" />
       </list>
     </option>
   </component>

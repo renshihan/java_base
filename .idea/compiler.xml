@@ -19,8 +19,11 @@
         <module name="book-smart-chapter2" />
         <module name="book-test" />
         <module name="book-thread" />
+        <module name="client" />
+        <module name="common-api" />
         <module name="commons-lang" />
         <module name="java8-test" />
+        <module name="server1" />
         <module name="spring-boot-study" />
       </profile>
     </annotationProcessing>
@@ -40,8 +43,12 @@
       <module name="book-smart-chapter2" target="1.8" />
       <module name="book-test" target="1.8" />
       <module name="book-thread" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="common-api" target="1.8" />
       <module name="commons-lang" target="1.8" />
+      <module name="dubbo-study" target="1.8" />
       <module name="java8-test" target="1.8" />
+      <module name="server1" target="1.8" />
       <module name="spring-boot-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>
