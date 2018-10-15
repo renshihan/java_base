@@ -1,0 +1,17 @@
+函数式接口：
+    1.谓语        Predicate<T> 它是一个函数式接口                      boolean test(T t)
+
+    2.            Comparator<T>                     int compare(T t1, T t2)
+
+    3.            Runnable                          void run()
+
+    4.            Callback <V>                      V  call();
+
+    5.            Consumer<T>                         void accept(T t1)
+
+    6.            Function<T,R>                          R apply(T t1)
+
+    7.
+
+问题1：Lambda表达式是怎么做类型检查的？
+

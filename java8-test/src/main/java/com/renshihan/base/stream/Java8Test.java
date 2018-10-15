@@ -31,6 +31,7 @@ public class Java8Test {
         System.out.println("---->"+numbers.containsAll(numbers2));
         //
         Random random = new Random();
+
 //        System.out.println("java-8...");
 //
 //
