@@ -1,18 +1,11 @@
-package com.renshihan.base.stream;
+package com.renshihan.base.引入流;
 
-import com.renshihan.commons.util.DateHelper;
 import com.renshihan.commons.util.StringHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.text.ParseException;
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
@@ -25,10 +18,10 @@ import static java.util.stream.Collectors.toList;
 public class Java8Test {
     private static final List<String> stringList = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl", "", "abc");
     private static final List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
-    private static final List<Integer> numbers2 = Arrays.asList( 2, 3, 7, 3, 5);
+    private static final List<Integer> numbers2 = Arrays.asList(2, 3, 7, 3, 5);
 
     public static void main(String[] args) {
-        System.out.println("---->"+numbers.containsAll(numbers2));
+        System.out.println("---->" + numbers.containsAll(numbers2));
         //
         Random random = new Random();
 
@@ -125,13 +118,120 @@ public class Java8Test {
 
 
         log.info("合并流:{}", list.stream()
-                .map(line -> line.split(" "))  //按照空格分词
-                .flatMap(Arrays::stream)                    //将每个String[]变成Stream后将一个个小流合并成一个大流
+                        .map(line -> line.split(" "))  //按照空格分词
+                        .flatMap(Arrays::stream)                    //将每个String[]变成Stream后将一个个小流合并成一个大流
 //                .distinct()     //去重
-                .collect(toList())
+                        .collect(toList())
         );
     }
 
+
+    /**
+     * 谓词
+     */
+    @Test
+    public void test7() {
+        //返回所有列中的偶数，并保证没有重复
+        List<Integer> numbers = Arrays.asList(1, 2, 4, 5, 6, 7);
+        numbers.stream().filter(i -> i % 2 == 0)
+                .distinct()
+                .forEach(System.out::println);
+    }
+
+    /**
+     * 映射
+     */
+    @Test
+    public void test8() {
+
+        List<String> names = Arrays.asList("张三", "里斯", "王五");
+        names.stream().
+                map(name -> String.format("名字叫:%s", name)).
+                collect(toList()).
+                forEach(System.out::println);
+    }
+
+    /**
+     * 流的扁平化
+     */
+    @Test
+    public void test9() {
+        List<String> hello = Arrays.asList("Hll", "eel", "lle", "l", "o", " ", "W", "o", "r", "l", "d");
+
+        hello.stream()
+                //将每一个单词转换为由其字母构成的数组
+                .map(a -> a.split(""))
+                //将各个生成流扁平化为单个流
+                .flatMap(Arrays::stream)
+
+                .distinct()
+                .collect(toList()).forEach(System.out::println);
+    }
+
+    /**
+     * 测试：给定一个数字列表，如何返回一个由每个数的平方构成的列表
+     */
+    @Test
+    public void test10() {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        numbers.stream().map(number -> number * number).collect(toList()).forEach(System.out::println);
+    }
+
+    @Test
+    public void test11() {
+        List<Integer> ns1 = Arrays.asList(1, 2, 3, 4);
+        List<Integer> ns2 = Arrays.asList(5, 6, 7);
+        ns1.stream()
+                .flatMap(
+                        n1 -> ns2.stream()
+                                .filter(n2 -> (n1 + n2) % 3 == 0)
+                                .map(n2 -> String.format("(%s,%s)", n1, n2)))
+                .collect(toList())
+                .forEach(System.out::println);
+
+    }
+
+    /**
+     * 查找和匹配
+     */
+    public void test12() {
+        List<Integer> numbers = Arrays.asList(1, 2, 4, 5, 6, 44, 87, 66, 5, 4, 5, 6, 66, 54, 4, 5, 5, 5);
+        numbers.stream().filter(i -> i % 2 == 0).findFirst().isPresent();
+
+    }
+
+    /**
+     * 归约   函数式编程语言称为-折叠：
+     * 场景：元素求和，
+     * reduce
+     */
+    @Test
+    public void test13() {
+        //或者
+        int sum = numbers.stream().reduce(0, Integer::sum);
+        //重载 无初始值
+        Optional<Integer> sumOptional = numbers.stream().reduce((a, b) -> a + b);
+
+        System.out.println(sum);
+
+        //最大最小值
+
+        System.out.println("最大值：" + numbers2.parallelStream().reduce(Integer::max).get());
+        System.out.println("最小值：" + numbers2.stream().reduce(Integer::min).get());
+    }
+
+    @Test
+    public void test14() {
+        //数一数流中有多少个元素
+        Integer sum = numbers2.stream().map(p -> 1).reduce(Integer::sum).get();
+        System.out.println(sum);
+    }
+
+    @Test
+    public void test15() {
+        //1.找出2011年发生的所有交易，并按照交易额排名
+
+    }
 
 
 }

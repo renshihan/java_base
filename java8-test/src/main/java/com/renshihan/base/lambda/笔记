@@ -17,7 +17,7 @@
 
     8.            Supplier<T>                           T get()
 
-    9.
+    9.          BinaryOperator<T>
 
 问题1：Lambda表达式是怎么做类型检查的？
 

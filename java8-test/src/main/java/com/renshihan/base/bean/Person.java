@@ -1,4 +1,4 @@
-package com.renshihan.base.stream;
+package com.renshihan.base.bean;
 
 import lombok.Data;
 
