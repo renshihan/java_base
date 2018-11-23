@@ -4,8 +4,15 @@ import com.renshihan.commons.util.StringHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.text.DecimalFormat;
 import java.util.*;
+import java.util.function.IntSupplier;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
@@ -230,8 +237,157 @@ public class Java8Test {
     @Test
     public void test15() {
         //1.找出2011年发生的所有交易，并按照交易额排名
+        String abc = "";
+        System.out.println(Optional.ofNullable(abc).isPresent());
+        System.out.println(Optional.ofNullable(null).isPresent());
+        Date a = new Date();
+        Date b = new Date(200010L);
+        List<Date> ab = Arrays.asList(a, b);
+        System.out.println(ab.stream().sorted().collect(toList()));
 
     }
 
+    @Test
+    public void test16() {
+        IntStream evenIntSream=IntStream.range(1,100).  //表示取值范围定在1~100之间
+                filter(n->n%2==0); //<!>
+        log.info("从流中督导：{}",evenIntSream.count() );
+    }
 
+
+    /**
+     * 5.6.2数值范围
+     */
+    @Test
+    public void test17(){
+        //表示范围是1~100
+        IntStream eventNames=IntStream.rangeClosed(1,100)
+                //一个从1到100得偶数流
+                .filter(n->n%2==0);
+        //50
+        System.out.println("rangeClosed::"+eventNames.count());
+
+        //表示范围是1~100
+        eventNames=IntStream.range(1,100)
+                //一个从1到100得偶数流
+                .filter(n->n%2==0);
+
+        //49，range是不包含结束值得
+        System.out.println("range::"+eventNames.count());
+    }
+
+
+    /**
+     * 5.6.3    数值流变化：勾股数
+     */
+    @Test
+    public void test18(){
+
+        Stream<int[]> pythagoreanTriples=
+                //创建1~100的范围生成a
+                IntStream.rangeClosed(1,100)
+                .boxed()
+                //扁平化--将多个Stream<int[]>合成一个Stream<int[]>
+                .flatMap(
+                        a->
+                                //创建a~100的b
+                                IntStream.rangeClosed(a,100)
+                                        //将能a*a+b*b的值开元出整数的b拦截
+                                        .filter(b->Math.sqrt(a*a+b*b)%1==0)
+                                        //转换b为一个数组[a,b,c]
+                                        .mapToObj(b->new int[]{a,b,(int)Math.sqrt(a*a+b*b)})
+                );
+        pythagoreanTriples.forEach(t->log.info("{},{},{}",t[0],t[1],t[2]));
+
+
+
+
+        //优化
+        Stream<double[]> pythagoreanTriples2=IntStream.rangeClosed(1,100).boxed()
+                .flatMap(a->IntStream.rangeClosed(a,100).mapToObj(
+                        //产生三元数
+                        b->new double[]{a,b,Math.sqrt(a*a+b*b)})
+                        //元组中的第三个元素必须是整数
+                ).filter(t->t[2]%1==0);
+
+    }
+    /**
+     * 5.7  构建流
+     * */
+    @Test
+    public void test19(){
+        //显示的创建一个流
+        Stream<String> stringStream=Stream.of("java","8","in","action");
+        //字符转换大写并输出
+        stringStream.map(String::toUpperCase).forEach(System.out::println);
+
+
+        //获得一个空的流
+        Stream<String> emptyStream=Stream.empty();
+
+        //5.7.2数组创建流
+        int[] numbers={1,2,3,4,5,6,7,7,8};
+        //计算和
+        int sum=Arrays.stream(numbers).sum();
+        System.out.println("sum :"+sum);
+
+        //5.7.3文件创建流
+        long uniqueWords=0;
+
+        //流会自动关闭
+        try(Stream<String> lines= Files.lines(Paths.get("data.txt") ,Charset.defaultCharset())) {
+            //
+            uniqueWords=lines.flatMap(line->Arrays.stream(line.split(" ")))
+                    //删除重复项目
+                    .distinct()
+                    //数一数多少个不同的单词
+                    .count();
+        }catch (Exception e){
+            //如果打开文件时出现异常
+        }
+
+    }
+    /**
+     * 5.7.4 由函数生成流：创建无限流
+     * */
+    @Test
+    public void test20(){
+        //一般会用limit(n)来对这种流加以限制
+        //迭代
+        Stream.iterate(0,n->n+2).limit(10).forEach(System.out::println);
+
+
+        //斐波那契元组序列
+        Stream.iterate(new int[]{0,1},t->new int[]{t[1],t[0]+t[1]}).limit(20)
+                .forEach(t-> System.out.println("("+t[0]+","+t[1]+")"));
+
+        System.out.println("-----------------------");
+
+        Stream.iterate(new int[]{0,1},t->new int[]{t[1],t[0]+t[1]}).limit(20)
+                .map(t->t[0])
+                .forEach(System.out::println);
+
+
+    }
+
+    @Test
+    public void test21(){
+        //generate不是依次对每个新生成的值应用函数的
+        Stream.generate(Math::random)
+                .limit(5)
+                .forEach(System.out::println);
+        IntSupplier fib=new IntSupplier(){
+            private int previous=0;
+            private int current=1;
+            @Override
+            public int getAsInt() {
+                int oldPrevious=this.previous;
+                int nextPrevious=this.previous+this.current;
+                this.previous=this.current;
+                this.current=nextPrevious;
+                return oldPrevious;
+            }
+        };
+        IntStream.generate(fib).limit(10).forEach(System.out::println);
+    }
 }

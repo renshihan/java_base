@@ -19,5 +19,6 @@
 
     9.          BinaryOperator<T>
 
+    10.         UnaryOperator<t>                    n->n+2
 问题1：Lambda表达式是怎么做类型检查的？
 
