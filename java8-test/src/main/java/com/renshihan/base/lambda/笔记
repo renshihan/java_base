@@ -17,7 +17,7 @@
 
     8.            Supplier<T>                           T get()
 
-    9.          BinaryOperator<T>
+    9.          BinaryOperator<T>               T applay(T a,T b);
 
     10.         UnaryOperator<t>                    n->n+2
 问题1：Lambda表达式是怎么做类型检查的？

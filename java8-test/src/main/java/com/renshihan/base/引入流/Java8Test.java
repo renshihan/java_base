@@ -390,4 +390,41 @@ public class Java8Test {
         };
         IntStream.generate(fib).limit(10).forEach(System.out::println);
     }
+    @Test
+    public void test22(){
+        String format="Insert into CASH.T_RCM_DICT (ID,VALUE,LABEL,TYPE,DES,DEL_FLAG,ORDER_NUM,PARENT_ID) values ('%s','%s','%s','%s','%s','1',1,'null');";
+        String type="RISK_TIPS";
+        String des="商户风险提示";
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y001","机构未正常经营",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y002","未在工商注册系统中",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y003","负债比过高",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y004","有不良记录",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y005","大额50000及以上",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y006","风险等级低",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y007","GPS与商户城市不同",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y008","在获取通讯录权限的情况下，通讯录或通话记录未包含紧急联系人2",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y009","H5进件",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"Y999","初审和反欺诈没有命中任何一条黄灯规则",type,des));
+
+
+        type="BASIC_CONS_FLG";
+        des="乐融商户风险提示";
+        System.out.println(String.format(format,IdGenerator.getUUID(),"C01","结算人与法人始终不一致",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"C02","结算人与法人目前不一致，30天前有过修改",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"C03","结算人与法人始终一致",type,des));
+        System.out.println(String.format(format,IdGenerator.getUUID(),"C04","结算人与法人目前一致，30天前有过修改",type,des));
+
+    }
+
+    @Test
+    public void test23(){
+        //切片
+        List<String> demoList=Arrays.asList("str1","str2","str3","st4","123132","124354534","1231215666","wretwe");
+        int length=demoList.size();
+    }
+
+    @Test
+    public void test24(){
+
+    }
 }

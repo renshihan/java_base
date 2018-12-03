@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-study/dubbo-study.iml" filepath="$PROJECT_DIR$/dubbo-study/dubbo-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8-test/java8-test.iml" filepath="$PROJECT_DIR$/java8-test/java8-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_base.iml" filepath="$PROJECT_DIR$/.idea/java_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-test/mq-test.iml" filepath="$PROJECT_DIR$/mq-test/mq-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-study/server1/server1.iml" filepath="$PROJECT_DIR$/dubbo-study/server1/server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" filepath="$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" />
     </modules>
