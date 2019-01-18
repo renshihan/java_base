@@ -27,6 +27,7 @@
         <module name="mq-test" />
         <module name="server1" />
         <module name="spring-boot-study" />
+        <module name="zookeeper-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -53,6 +54,7 @@
       <module name="mq-test" target="1.8" />
       <module name="server1" target="1.8" />
       <module name="spring-boot-study" target="1.7" />
+      <module name="zookeeper-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq-test/mq-test.iml" filepath="$PROJECT_DIR$/mq-test/mq-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-study/server1/server1.iml" filepath="$PROJECT_DIR$/dubbo-study/server1/server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" filepath="$PROJECT_DIR$/spring-boot-study/spring-boot-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-admin/zookeeper-admin.iml" filepath="$PROJECT_DIR$/zookeeper-admin/zookeeper-admin.iml" />
     </modules>
   </component>
 </project>

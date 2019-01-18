@@ -60,6 +60,8 @@ public class Java8Test {
     }
 
     private int operator(int a, int b, MathOperation mathOperation) {
+
         return mathOperation.operation(a, b);
     }
+
 }
