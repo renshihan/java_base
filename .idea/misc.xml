@@ -20,7 +20,6 @@
         <option value="$PROJECT_DIR$/java8-test/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-study/pom.xml" />
         <option value="$PROJECT_DIR$/mq-test/pom.xml" />
-        <option value="$PROJECT_DIR$/zookeeper-admin/pom.xml" />
       </list>
     </option>
   </component>

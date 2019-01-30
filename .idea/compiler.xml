@@ -27,7 +27,6 @@
         <module name="mq-test" />
         <module name="server1" />
         <module name="spring-boot-study" />
-        <module name="zookeeper-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
