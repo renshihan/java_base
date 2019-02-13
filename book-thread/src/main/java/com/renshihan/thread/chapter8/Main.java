@@ -13,6 +13,12 @@ package com.renshihan.thread.chapter8;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("----");
+
+        Channel channel=new Channel(5);
+        channel.startWorkders();
+        new ClientThread("任时汉",channel).start();
+        new ClientThread("姜钱",channel).start();
+        new ClientThread("明星",channel).start();
+
     }
 }
