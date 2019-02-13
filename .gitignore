@@ -10,7 +10,7 @@ build/
 catalina*
 /logs/
 antifraud-admin/logs
-.idea/
+/.idea/
 */target/
 *.iml
 *.class
