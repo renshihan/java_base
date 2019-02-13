@@ -11,3 +11,6 @@ catalina*
 /logs/
 antifraud-admin/logs
 .idea/
+*/target/
+*.iml
+*.class
