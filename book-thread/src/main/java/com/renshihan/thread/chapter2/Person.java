@@ -1,4 +1,4 @@
-package com.renshihan.thread.immutable;
+package com.renshihan.thread.chapter2;
 
 /**
  * Created by admin on 2017/12/27.

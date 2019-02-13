@@ -1,4 +1,4 @@
-package com.renshihan.thread.producer_consumer.exmple2;
+package com.renshihan.thread.chapter3.exmple2;
 
 import java.util.concurrent.Exchanger;
 
