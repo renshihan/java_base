@@ -2,46 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56235e0-9f62-4ef4-a2c0-b3c01dd1e5c9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/MatrixGenerator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelIndividualMultiplier.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMultiplier.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/test1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/GroupMultiplierTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelGroupMutiplier.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelRowMultiplier.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/RowMultiplierTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ExecutorStatistics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/KnnClassifier.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/RejectedTaskController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerExecutor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/ConcurrentCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/QueryCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/BestMatchingData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/LevenshteinDistance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/WordsLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicConcurrentCalculation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingConcurrentMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/serial/BestMatchingSerialCalculation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/javabingxingTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/mvnw" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/mvnw.cmd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/ZookeeperAdminApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/ZooInspector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/encryption/BasicDataEncryptionManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/encryption/DataEncryptionManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/NodeViewersChangeListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorAboutDialog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorConnectionPropertiesDialog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorIconResources.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorNodeViewersDialog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorNodeViewersPanel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorPanel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/ZooInspectorTreeViewer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/NodeViewerACL.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/NodeViewerData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/NodeViewerMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/ZooInspectorNodeViewer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/NodeListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/Pair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/ZooInspectorManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/ZooInspectorManagerImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/ZooInspectorNodeManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/ZooInspectorNodeTreeManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/manager/ZooInspectorReadOnlyManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/retry/ZooKeeperRetry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/main/resources/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-admin/src/test/java/com/renshihan/zookeeperadmin/ZookeeperAdminApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/book-test/pom.xml" afterPath="$PROJECT_DIR$/book-test/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java" afterPath="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java" />
+      <change beforePath="$PROJECT_DIR$/book-thread/README.md" afterPath="$PROJECT_DIR$/book-thread/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/archaius-study/target/" />
     <ignored path="$PROJECT_DIR$/book-smart/book-smart-chapter1/target/" />
@@ -96,143 +80,119 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/test1.java">
+      <file leaf-file-name="LevenshteinDistance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/LevenshteinDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="750">
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <folding>
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestMatchingData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/BestMatchingData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestMatchingSerialCalculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/serial/BestMatchingSerialCalculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestMatchingBasicTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestMatchingBasicConcurrentCalculation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicConcurrentCalculation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2105#2134#0" expanded="true" />
+                <element signature="e#2105#2134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/immutable/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/MatrixGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-              <folding>
-                <element signature="e#666#707#1" expanded="true" />
-                <element signature="e#716#743#1" expanded="true" />
-                <element signature="e#752#907#0" expanded="true" />
-                <element signature="e#757#767#1" expanded="true" />
-                <element signature="e#752#907#0" expanded="true" />
-                <element signature="e#752#907#0" expanded="true" />
-                <element signature="e#752#907#0" expanded="true" />
-                <element signature="e#752#907#0" expanded="true" />
-                <element signature="e#797#897#0" expanded="true" />
-                <element signature="e#802#812#1" expanded="true" />
-                <element signature="e#797#897#0" expanded="true" />
-                <element signature="e#797#897#0" expanded="true" />
-                <element signature="e#797#897#0" expanded="true" />
-                <element signature="e#797#897#0" expanded="true" />
-                <element signature="e#859#882#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book-thread/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialMultiplier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMultiplier.java">
+      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-              <folding>
-                <element signature="e#430#455#1" expanded="true" />
-                <element signature="e#464#495#1" expanded="true" />
-                <element signature="e#504#535#1" expanded="true" />
-                <element signature="e#544#912#0" expanded="true" />
-                <element signature="e#549#559#1" expanded="true" />
-                <element signature="e#544#912#0" expanded="true" />
-                <element signature="e#544#912#0" expanded="true" />
-                <element signature="e#544#912#0" expanded="true" />
-                <element signature="e#544#912#0" expanded="true" />
-                <element signature="e#590#902#0" expanded="true" />
-                <element signature="e#595#605#1" expanded="true" />
-                <element signature="e#590#902#0" expanded="true" />
-                <element signature="e#590#902#0" expanded="true" />
-                <element signature="e#590#902#0" expanded="true" />
-                <element signature="e#590#902#0" expanded="true" />
-                <element signature="e#675#888#0" expanded="true" />
-                <element signature="e#680#690#1" expanded="true" />
-                <element signature="e#675#888#0" expanded="true" />
-                <element signature="e#675#888#0" expanded="true" />
-                <element signature="e#675#888#0" expanded="true" />
-                <element signature="e#675#888#0" expanded="true" />
-                <element signature="e#842#869#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1150">
+              <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java">
+      <file leaf-file-name="BestMatchingConcurrentMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingConcurrentMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#556#611#1" expanded="true" />
-                <element signature="e#620#675#1" expanded="true" />
-                <element signature="e#684#753#1" expanded="true" />
-                <element signature="e#762#784#1" expanded="true" />
-                <element signature="e#857#877#1" expanded="true" />
-                <element signature="e#917#930#0" expanded="true" />
-                <element signature="e#917#946#0" expanded="true" />
-                <element signature="e#931#946#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndividualMultiplierTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java">
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="e#1033#1159#0" expanded="true" />
-                <element signature="e#1038#1048#1" expanded="true" />
-                <element signature="e#1033#1159#0" expanded="true" />
-                <element signature="e#1033#1159#0" expanded="true" />
-                <element signature="e#1033#1159#0" expanded="true" />
-                <element signature="e#1033#1159#0" expanded="true" />
-                <element signature="e#1114#1148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelIndividualMultiplier.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelIndividualMultiplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#647#686#1" expanded="true" />
-                <element signature="e#668#685#0" expanded="true" />
-                <element signature="e#695#720#1" expanded="true" />
-                <element signature="e#729#754#1" expanded="true" />
-                <element signature="e#763#1193#0" expanded="true" />
-                <element signature="e#768#778#1" expanded="true" />
-                <element signature="e#763#1193#0" expanded="true" />
-                <element signature="e#763#1193#0" expanded="true" />
-                <element signature="e#763#1193#0" expanded="true" />
-                <element signature="e#763#1193#0" expanded="true" />
-                <element signature="e#809#1183#0" expanded="true" />
-                <element signature="e#814#824#1" expanded="true" />
-                <element signature="e#809#1183#0" expanded="true" />
-                <element signature="e#809#1183#0" expanded="true" />
-                <element signature="e#809#1183#0" expanded="true" />
-                <element signature="e#809#1183#0" expanded="true" />
-                <element signature="e#859#946#1" expanded="true" />
-                <element signature="e#963#994#1" expanded="true" />
-                <element signature="e#1043#1062#0" expanded="true" />
-                <element signature="e#1043#1062#0" expanded="true" />
-                <element signature="e#1270#1485#0" expanded="true" />
-                <element signature="e#1275#1288#0" expanded="true" />
-                <element signature="e#1270#1485#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="975">
+              <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -316,29 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-study/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-study/server1/src/main/java/com/renshihan/study/dubbo/server/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-study/server1/src/main/java/com/renshihan/study/dubbo/server/ServerMain.java" />
-        <option value="$PROJECT_DIR$/dubbo-study/server1/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dubbo-study/server1/src/main/java/com/renshihan/study/dubbo/server/impl/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/stream/StreamUtils.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/stream/Java8Test.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/optional/OptionalTest1.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/lambda/LambdaTest1.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/lambda/ConsumerTest.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/lambda/LambdaTest2.java" />
-        <option value="$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/DateTest.java" />
-        <option value="$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/方法引用/Car.java" />
-        <option value="$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/art/concurrent/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/引入流/Person.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/bean/Trader.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/引入流/bean/Person.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/bean/Transaction.java" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/常规/java8Test.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/引入流/IdGenerator.java" />
-        <option value="$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/config/TestMqCofigura.java" />
         <option value="$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/service/SendMqService.java" />
         <option value="$PROJECT_DIR$/mq-test/pom.xml" />
         <option value="$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/controller/RabbitMqController.java" />
@@ -363,10 +300,33 @@
         <option value="$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/retry/ZooKeeperRetry.java" />
         <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/test1.java" />
         <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/MatrixGenerator.java" />
-        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java" />
         <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMultiplier.java" />
-        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java" />
         <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelIndividualMultiplier.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/RowMultiplierTask.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelRowMultiplier.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/GroupMultiplier.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/GroupMultiplierTask.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelGroupMutiplier.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java" />
+        <option value="$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/javabingxing.java" />
+        <option value="$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/javabingxingTest.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ExecutorStatistics.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/RejectedTaskController.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/Command.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerTask.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerExecutor.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/KnnClassifier.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/QueryCommand.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/ConcurrentCommand.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/WordsLoader.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/LevenshteinDistance.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/serial/BestMatchingSerialCalculation.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingConcurrentMain.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/BestMatchingData.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicTask.java" />
+        <option value="$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicConcurrentCalculation.java" />
+        <option value="$PROJECT_DIR$/book-thread/README.md" />
       </list>
     </option>
   </component>
@@ -393,8 +353,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-118" />
-    <option name="y" value="30" />
+    <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
   </component>
@@ -416,7 +375,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,12 +385,28 @@
               <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_base" type="462c0819:PsiDirectoryNode" />
+              <item name="book-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -450,12 +427,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git_study_01\java_base\zookeeper-admin\src\main\java\com\renshihan\zookeeperadmin" />
-      <recent name="D:\git_study_01\java_base" />
-      <recent name="D:\git_study_01\java_base\java8-test" />
-      <recent name="D:\git_study_01\java_base\java8-test\src\main\java\com\renshihan\base\引入流" />
-      <recent name="E:\git_2\java_base\dubbo-study\server1\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_2\java_base\book-test\src\main\resources\templates\test" />
+      <recent name="E:\git_2\java_base\book-netty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.renshihan.base.引入流" />
@@ -464,9 +438,12 @@
       <recent name="com.renshihan.study.book.netty.redis.controller" />
       <recent name="com.renshihan.study.book.netty.redis.util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git_2\java_base\book-test\src\main\resources\templates\test" />
-      <recent name="E:\git_2\java_base\book-netty" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_study_01\java_base\zookeeper-admin\src\main\java\com\renshihan\zookeeperadmin" />
+      <recent name="D:\git_study_01\java_base" />
+      <recent name="D:\git_study_01\java_base\java8-test" />
+      <recent name="D:\git_study_01\java_base\java8-test\src\main\java\com\renshihan\base\引入流" />
+      <recent name="E:\git_2\java_base\dubbo-study\server1\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,7 +464,7 @@
     </option>
     <option name="contentProportion" value="0.20974809" />
   </component>
-  <component name="RunManager" selected="Application.SerialMain">
+  <component name="RunManager" selected="Spring Boot.ArchaiusStudyApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -630,19 +607,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="javaTest3.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="javabingxingTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.renshihan.base.forkjoin.*" />
+          <option name="PATTERN" value="com.renshihan.study.booktest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="java8-test" />
+      <module name="book-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.renshihan.base.引入流" />
-      <option name="MAIN_CLASS_NAME" value="com.renshihan.base.引入流.javaTest3" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.renshihan.study.booktest" />
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.study.booktest.javabingxingTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1062,19 +1039,19 @@
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.BookThreadApplication" />
       <item index="10" class="java.lang.String" itemvalue="Spring Boot.MqTestApplication" />
       <item index="11" class="java.lang.String" itemvalue="Spring Boot.ZookeeperAdminApplication" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.javaTest3.test3" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test23" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test1123" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test123213" />
-      <item index="16" class="java.lang.String" itemvalue="Application.SerialMain" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test23" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test1123" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test123213" />
+      <item index="15" class="java.lang.String" itemvalue="Application.SerialMain" />
+      <item index="16" class="java.lang.String" itemvalue="JUnit.javabingxingTest.test4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SerialMain" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test123213" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test1123" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test23" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.javaTest3.test3" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.javabingxingTest.test4" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SerialMain" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test123213" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test1123" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SqlOutTest.test23" />
       </list>
     </recent_temporary>
   </component>
@@ -1154,7 +1131,10 @@
       <workItem from="1548208872064" duration="630000" />
       <workItem from="1548296389110" duration="618000" />
       <workItem from="1548742374493" duration="3013000" />
-      <workItem from="1548814726197" duration="3650000" />
+      <workItem from="1548814726197" duration="3719000" />
+      <workItem from="1548900324943" duration="17915000" />
+      <workItem from="1549935928258" duration="1044000" />
+      <workItem from="1550033929197" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1518068006258</created>
@@ -1345,13 +1325,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547793064015</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="《精通java并发编程2》">
+      <created>1548846456008</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1548846456008</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SqlOutTest_test1123 - 2019.01.14 at 10h 40m 52s.xml">
-      <configuration name="SqlOutTest.test1123" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SqlOutTest_test1123 - 2019.01.14 at 10h 41m 07s.xml">
       <configuration name="SqlOutTest.test1123" configurationId="JUnit" />
     </history-entry>
@@ -1379,9 +1363,12 @@
     <history-entry file="javaTest3_test3 - 2018.12.05 at 18h 57m 50s.xml">
       <configuration name="javaTest3.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="javabingxingTest_test4 - 2019.01.31 at 11h 25m 38s.xml">
+      <configuration name="javabingxingTest.test4" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405282000" />
+    <option name="totallyTimeSpent" value="425050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1391,24 +1378,24 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.059549358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23033068" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4729064" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18700114" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22690992" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46633825" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30364805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1418,7 +1405,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20064378" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23033068" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1432,7 +1419,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20064378" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14937286" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23033068" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1444,14 +1431,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4729064" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5176739" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46633825" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22690992" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28004292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3899309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1477,185 +1464,16 @@
     <MESSAGE value="添加clientUtil" />
     <MESSAGE value="java8新特性学习" />
     <MESSAGE value="zookeeper管理客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="zookeeper管理客户端" />
+    <MESSAGE value="《精通java并发编程2》" />
+    <option name="LAST_COMMIT_MESSAGE" value="《精通java并发编程2》" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37925">
-          <caret line="1588" column="22" lean-forward="false" selection-start-line="1588" selection-start-column="22" selection-end-line="1588" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19175">
-          <caret line="819" column="28" lean-forward="false" selection-start-line="819" selection-start-column="28" selection-end-line="819" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/常规/java8Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3775">
-          <caret line="197" column="14" lean-forward="false" selection-start-line="197" selection-start-column="14" selection-end-line="197" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/引入流/IdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study/server1/src/main/java/com/renshihan/study/dubbo/server/impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study/server1/src/main/java/com/renshihan/study/dubbo/server/ServerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study/server1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-study/server1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/service/SendMqService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/controller/RabbitMqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/config/RabbitMqConfiguration.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1134" column="37" lean-forward="false" selection-start-line="1134" selection-start-column="37" selection-end-line="1134" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/service/HelloReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/java/com/renshihan/mq/mqtest/MqTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-test/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/lambda/LambdaTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/utils/JavaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/lambda/ConsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java8-test/src/main/java/com/renshihan/base/引入流/java8Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3775">
@@ -1755,43 +1573,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/about.html" />
     <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/logger/LoggerFactory.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/NodeViewerACL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-admin/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/inspector/gui/nodeviewer/NodeViewerACL.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
           <caret line="266" column="13" lean-forward="false" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/retry/ZooKeeperRetry.java">
+    <entry file="file://$PROJECT_DIR$/zookeeper-admin/src/main/java/com/renshihan/zookeeperadmin/retry/ZooKeeperRetry.java" />
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/MatrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="675">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/RowMultiplierTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelRowMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelIndividualMultiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/GroupMultiplierTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelGroupMutiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/test/java/com/renshihan/study/booktest/javabingxingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#787#843#1" expanded="false" />
+            <element signature="e#852#907#1" expanded="false" />
+            <element signature="e#916#985#1" expanded="false" />
+            <element signature="e#994#1016#1" expanded="false" />
+            <element signature="e#1089#1109#1" expanded="false" />
+            <element signature="e#1149#1162#0" expanded="false" />
+            <element signature="e#1149#1178#0" expanded="false" />
+            <element signature="e#1163#1178#0" expanded="false" />
+            <element signature="e#1360#1429#1" expanded="false" />
+            <element signature="e#1533#1553#1" expanded="false" />
+            <element signature="e#1804#1873#1" expanded="false" />
+            <element signature="e#1977#1997#1" expanded="false" />
+            <element signature="e#2248#2317#1" expanded="false" />
+            <element signature="e#2427#2447#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/RejectedTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ExecutorStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="101" column="24" lean-forward="false" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/ServerExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/KnnClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/QueryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5.java" />
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter3/dao/ConcurrentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1803,124 +1744,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/MatrixGenerator.java">
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/WordsLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <element signature="e#666#707#1" expanded="true" />
-            <element signature="e#716#743#1" expanded="true" />
-            <element signature="e#752#907#0" expanded="true" />
-            <element signature="e#757#767#1" expanded="true" />
-            <element signature="e#752#907#0" expanded="true" />
-            <element signature="e#752#907#0" expanded="true" />
-            <element signature="e#752#907#0" expanded="true" />
-            <element signature="e#752#907#0" expanded="true" />
-            <element signature="e#797#897#0" expanded="true" />
-            <element signature="e#802#812#1" expanded="true" />
-            <element signature="e#797#897#0" expanded="true" />
-            <element signature="e#797#897#0" expanded="true" />
-            <element signature="e#797#897#0" expanded="true" />
-            <element signature="e#797#897#0" expanded="true" />
-            <element signature="e#859#882#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMultiplier.java">
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/LevenshteinDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="750">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
-            <element signature="e#430#455#1" expanded="true" />
-            <element signature="e#464#495#1" expanded="true" />
-            <element signature="e#504#535#1" expanded="true" />
-            <element signature="e#544#912#0" expanded="true" />
-            <element signature="e#549#559#1" expanded="true" />
-            <element signature="e#544#912#0" expanded="true" />
-            <element signature="e#544#912#0" expanded="true" />
-            <element signature="e#544#912#0" expanded="true" />
-            <element signature="e#544#912#0" expanded="true" />
-            <element signature="e#590#902#0" expanded="true" />
-            <element signature="e#595#605#1" expanded="true" />
-            <element signature="e#590#902#0" expanded="true" />
-            <element signature="e#590#902#0" expanded="true" />
-            <element signature="e#590#902#0" expanded="true" />
-            <element signature="e#590#902#0" expanded="true" />
-            <element signature="e#675#888#0" expanded="true" />
-            <element signature="e#680#690#1" expanded="true" />
-            <element signature="e#675#888#0" expanded="true" />
-            <element signature="e#675#888#0" expanded="true" />
-            <element signature="e#675#888#0" expanded="true" />
-            <element signature="e#675#888#0" expanded="true" />
-            <element signature="e#842#869#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/SerialMain.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#556#611#1" expanded="true" />
-            <element signature="e#620#675#1" expanded="true" />
-            <element signature="e#684#753#1" expanded="true" />
-            <element signature="e#762#784#1" expanded="true" />
-            <element signature="e#857#877#1" expanded="true" />
-            <element signature="e#917#930#0" expanded="true" />
-            <element signature="e#917#946#0" expanded="true" />
-            <element signature="e#931#946#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="975">
+          <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/IndividualMultiplierTask.java">
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/serial/BestMatchingSerialCalculation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#1033#1159#0" expanded="true" />
-            <element signature="e#1038#1048#1" expanded="true" />
-            <element signature="e#1033#1159#0" expanded="true" />
-            <element signature="e#1033#1159#0" expanded="true" />
-            <element signature="e#1033#1159#0" expanded="true" />
-            <element signature="e#1033#1159#0" expanded="true" />
-            <element signature="e#1114#1148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter2/ParallelIndividualMultiplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="625">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#647#686#1" expanded="true" />
-            <element signature="e#668#685#0" expanded="true" />
-            <element signature="e#695#720#1" expanded="true" />
-            <element signature="e#729#754#1" expanded="true" />
-            <element signature="e#763#1193#0" expanded="true" />
-            <element signature="e#768#778#1" expanded="true" />
-            <element signature="e#763#1193#0" expanded="true" />
-            <element signature="e#763#1193#0" expanded="true" />
-            <element signature="e#763#1193#0" expanded="true" />
-            <element signature="e#763#1193#0" expanded="true" />
-            <element signature="e#809#1183#0" expanded="true" />
-            <element signature="e#814#824#1" expanded="true" />
-            <element signature="e#809#1183#0" expanded="true" />
-            <element signature="e#809#1183#0" expanded="true" />
-            <element signature="e#809#1183#0" expanded="true" />
-            <element signature="e#809#1183#0" expanded="true" />
-            <element signature="e#859#946#1" expanded="true" />
-            <element signature="e#963#994#1" expanded="true" />
-            <element signature="e#1043#1062#0" expanded="true" />
-            <element signature="e#1043#1062#0" expanded="true" />
-            <element signature="e#1270#1485#0" expanded="true" />
-            <element signature="e#1275#1288#0" expanded="true" />
-            <element signature="e#1270#1485#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingConcurrentMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/common/BestMatchingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-test/src/main/java/com/renshihan/study/booktest/javabingxing/chapter5/first/concurrent/a/BestMatchingBasicConcurrentCalculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2105#2134#0" expanded="true" />
+            <element signature="e#2105#2134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-thread/src/main/java/com/renshihan/thread/immutable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-thread/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
