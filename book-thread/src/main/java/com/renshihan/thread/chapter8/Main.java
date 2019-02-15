@@ -8,9 +8,17 @@
  */
 package com.renshihan.thread.chapter8;
 
+import lombok.extern.slf4j.Slf4j;
+
+import javax.swing.*;
+import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
+
 /**
  *
  */
+@Slf4j
 public class Main {
     public static void main(String[] args) {
 
@@ -19,6 +27,14 @@ public class Main {
         new ClientThread("任时汉",channel).start();
         new ClientThread("姜钱",channel).start();
         new ClientThread("明星",channel).start();
+        ClientThread clientThread=new ClientThread("aaaa",channel);
+        log.info("-----------");
+        SwingUtilities.invokeLater(clientThread);
+        TimerTask timerTask=new TimerTask(){
+            @Override
+            public void run() {
 
+            }
+        };
     }
 }

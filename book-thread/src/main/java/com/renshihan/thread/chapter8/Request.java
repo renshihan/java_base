@@ -31,7 +31,7 @@ public class Request {
         this.name = name;
         this.number = number;
     }
-
+    //执行方法， 调用与执行的分离
     public void execute(){
         log.info("name={},number={}...开始执行...",name,number);
         try {
@@ -48,4 +48,5 @@ public class Request {
                 ", number=" + number +
                 '}';
     }
+
 }

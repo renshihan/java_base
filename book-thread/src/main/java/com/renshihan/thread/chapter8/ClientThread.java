@@ -10,6 +10,8 @@ package com.renshihan.thread.chapter8;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 /**
@@ -25,7 +27,6 @@ public class ClientThread extends Thread{
         super(name);
         this.channel = channel;
     }
-
     @Override
     public void run() {
         try {
