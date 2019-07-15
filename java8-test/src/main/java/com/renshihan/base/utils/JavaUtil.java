@@ -8,6 +8,8 @@
  */
 package com.renshihan.base.utils;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.IntStream;
 
 /**
@@ -18,5 +20,16 @@ import java.util.stream.IntStream;
  * @review: ren_sh[ren_sh@suixingpay.com]/2018/12/4 13:51
  */
 public class JavaUtil {
-
+    public static void main(String[] args) {
+        List<String> rows=new ArrayList<String>(10);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("------"+i);
+            rows.add(i,i+1+"");
+        }
+        int end=rows.size()/3;
+        System.out.println("end="+end);
+        for (int i = 0; i <=(rows.size()/3); i++) {
+            System.out.println("调用次数----"+i);
+        }
+    }
 }

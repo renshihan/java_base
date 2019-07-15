@@ -40,7 +40,7 @@ public class Java8Test {
 //        System.out.println("square list：" + numbers.stream().map(i -> i * i).distinct().collect(Collectors.toList()));
 //
 //        System.out.println("------------------------------------------------------------------");
-//        IntSummaryStatistics starts=numbers.stream().mapToInt(x ->x).summaryStatistics();
+        IntSummaryStatistics starts=numbers.stream().mapToInt(x ->x).summaryStatistics();
 //        System.out.println("列表中最大的数:"+starts.getMax());
 //        System.out.println("列表中最小的数:"+starts.getMin());
 //        System.out.println("所有数之和："+starts.getSum());

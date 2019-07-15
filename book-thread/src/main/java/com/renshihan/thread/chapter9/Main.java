@@ -10,6 +10,9 @@ package com.renshihan.thread.chapter9;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 向Host发出请求并获取数据的类
  */
@@ -33,6 +36,8 @@ public class Main {
         log.info("data2={}",data2.getContent());
         log.info("data3={}",data3.getContent());
 
+        Map<String,String> a=new HashMap<>(0);
 
+        log.info("---->>>>>{}",a.isEmpty());
     }
 }
