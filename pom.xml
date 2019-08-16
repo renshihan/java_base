@@ -7,6 +7,7 @@
 
     <groupId>com.renshihan.study</groupId>
     <artifactId>spring-boot-study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
     <dependencies>
         <dependency>
@@ -71,5 +72,8 @@
     </build>
     <modules>
         <module>book-thread</module>
+        <module>java8-test</module>
+        <module>commons-lang</module>
+        <module>book-flink</module>
     </modules>
 </project>
