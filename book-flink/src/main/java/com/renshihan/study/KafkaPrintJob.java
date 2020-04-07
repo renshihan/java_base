@@ -24,6 +24,7 @@ public class KafkaPrintJob {
                 new FlinkKafkaConsumer011<String>("testDemo",new SimpleStringSchema(),props)
         ).setParallelism(1);
         dataStreamSource.print();
+
         try {
             env.execute("kafkaPrintJob----execute");
         } catch (Exception e) {
