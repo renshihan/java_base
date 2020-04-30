@@ -75,5 +75,7 @@
         <module>java8-test</module>
         <module>commons-lang</module>
         <module>book-flink</module>
+        <module>leet-code</module>
+        <module>table-book</module>
     </modules>
 </project>
