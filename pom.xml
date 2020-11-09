@@ -6,13 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.renshihan.study</groupId>
-    <artifactId>java-base</artifactId>
+    <artifactId>java_base</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-
-    <properties>
-        <sofa.boot.version>3.0.0.RELEASE</sofa.boot.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -26,13 +22,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>2.0.2.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.alipay.sofa</groupId>
-                <artifactId>sofaboot-dependencies</artifactId>
-                <version>${sofa.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -85,8 +74,8 @@
         <module>book-thread</module>
         <module>java8-test</module>
         <module>commons-lang</module>
-        <module>dythread</module>
-        <module>book-netty</module>
-        <module>sofa-test</module>
+        <module>book-flink</module>
+        <module>leet-code</module>
+        <module>table-book</module>
     </modules>
 </project>
