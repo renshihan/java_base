@@ -4,6 +4,7 @@ import com.renshihan.commons.util.StringHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -404,6 +405,12 @@ public class Java8Test {
      */
     @Test
     public void test23(){
-
+        List<BigDecimal> list=new ArrayList<>();
+        for (int i = 0; i < 7; i++) {
+            list.add(new BigDecimal(1.0001));
+        }
+        System.out.println(list.stream().reduce((a1,a2)->a1.multiply(a2)).get().doubleValue());
+//        System.out.println(list.stream().reduce((a1,a2)->a1.multiply(a2)).get().pow()-1);
+        System.out.println("bTc ".trim().toUpperCase(Locale.ROOT));
     }
 }
