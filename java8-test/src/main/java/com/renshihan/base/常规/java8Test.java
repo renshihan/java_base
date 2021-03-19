@@ -9,11 +9,13 @@
 package com.renshihan.base.常规;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.time.DateUtils;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * ${TODO} 写点注释吧
@@ -33,6 +35,8 @@ public class java8Test {
             log.info("产生得随机数--->{}",randNum);
         }
     }
+
+
     @Test
     public void test20(){
         StringBuffer stringBuffer=new StringBuffer();
@@ -53,6 +57,18 @@ public class java8Test {
             System.out.println("-----{}---"+ab.size());
         });
     }
+    @Test
+    public void test22(){
+        for (int i = 8; i > 0; i--) {
+            int randNum=(int)(Math.random()*100);
+            if(randNum % 5 ==0){
+                System.out.println("----命中throw---"+randNum);
+            }else {
+                System.out.println("----未命中------"+randNum);
+            }
+        }
+    }
+
     /**
      * 将一个list均分成n个list,主要通过偏移量来实现的
      * @param source
@@ -76,4 +92,19 @@ public class java8Test {
         }
         return result;
     }
+
+    public static void main(String[] args)throws Exception {
+//        String redeemStartTime="00:00:00";
+//        String redeemEndTime="01:00:00";
+//        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
+//
+//        System.out.println(formatter.parse(redeemStartTime).getTime());
+//        System.out.println(formatter.parse(redeemEndTime).getTime());
+
+        Long endTIme=1611220275496L;
+
+
+    }
+
+
 }

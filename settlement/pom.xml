@@ -2,16 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
-        <groupId>com.renshihan.study</groupId>
         <artifactId>java_base</artifactId>
+        <groupId>com.renshihan.study</groupId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>java8-test</artifactId>
-    <version>1.0.0</version>
     <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>settlement</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-annotation</artifactId>
+            <version>4.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.19</version>
+        </dependency>
         <dependency>
             <groupId>com.renshihan.commons</groupId>
             <artifactId>commons-lang</artifactId>
@@ -48,34 +57,42 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!--进行excel、word操作的poi jar包-->
         <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>3.9</version>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-base</artifactId>
+            <version>4.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.70</version>
         </dependency>
 
-        <!--必须引入的包，操作CSV-->
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-csv</artifactId>
-            <version>1.5</version>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.1.4</version>
         </dependency>
     </dependencies>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
     <build>
         <plugins>
+            <!-- 让maven不编译xls文件，但仍将其打包 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
-                    <!-- 源代码使用的jdk版本 -->
-                    <source>1.8</source>
-                    <!-- 构建后生成class文件jdk版本 -->
-                    <target>1.8</target>
+                    <nonFilteredFileExtensions>
+                        <nonFilteredFileExtension>xls</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>csv</nonFilteredFileExtension>
+                    </nonFilteredFileExtensions>
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 </project>

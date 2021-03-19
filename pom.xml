@@ -71,11 +71,12 @@
         </pluginManagement>
     </build>
     <modules>
-        <module>book-thread</module>
+<!--        <module>book-thread</module>-->
         <module>java8-test</module>
         <module>commons-lang</module>
-        <module>book-flink</module>
+<!--        <module>book-flink</module>-->
         <module>leet-code</module>
         <module>table-book</module>
+        <module>settlement</module>
     </modules>
 </project>
