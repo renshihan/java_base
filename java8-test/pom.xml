@@ -9,13 +9,11 @@
         <version>1.0.0</version>
     </parent>
     <artifactId>java8-test</artifactId>
-    <version>1.0.0</version>
     <modelVersion>4.0.0</modelVersion>
     <dependencies>
         <dependency>
-            <groupId>com.renshihan.commons</groupId>
+            <groupId>com.renshihan.study</groupId>
             <artifactId>commons-lang</artifactId>
-            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -24,18 +22,11 @@
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-parent</artifactId>
-            <version>1.1.11</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.1.11</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.20</version>
         </dependency>
         <dependency>
             <groupId>cn.gjing</groupId>
@@ -63,17 +54,20 @@
             <version>1.5</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
                 <configuration>
-                    <!-- 源代码使用的jdk版本 -->
-                    <source>1.8</source>
-                    <!-- 构建后生成class文件jdk版本 -->
-                    <target>1.8</target>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
         </plugins>

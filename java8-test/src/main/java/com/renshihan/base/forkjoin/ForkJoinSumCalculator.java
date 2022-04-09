@@ -8,7 +8,6 @@
  */
 package com.renshihan.base.forkjoin;
 
-import jdk.nashorn.internal.objects.NativeUint8Array;
 
 import java.util.concurrent.RecursiveTask;
 
