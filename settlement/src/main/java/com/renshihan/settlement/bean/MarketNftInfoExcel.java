@@ -19,45 +19,20 @@ import java.util.List;
  * @date 2021/1/7 17:56
  **/
 @Data
-@EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@Builder
 public class MarketNftInfoExcel {
 
-    @Excel(name = "f_id", orderNum = "1")
-    @ApiModelProperty(name = "id" , value = "id")
+    @Excel(name = "id", orderNum = "1")
     private Long id;
 
-    @Excel(name = "f_from_user_id", orderNum = "7")
-    @ApiModelProperty(name = "fromUserId" , value = "fromUserId")
-    private Long fromUserId;
+    @Excel(name = "token_id", orderNum = "2")
+    private String token_id;
 
-    @Excel(name = "f_to_user_id", orderNum = "9")
-    @ApiModelProperty(name = "toUserId" , value = "toUserId")
-    private Long toUserId;
+    @Excel(name = "future_address", orderNum = "3")
+    private String future_address;
 
-    @Excel(name = "f_currency", orderNum = "11")
-    @ApiModelProperty(name = "currency" , value = "币种：小写")
-    private String currency;
-
-    @Excel(name = "f_amount", orderNum = "12")
-    @ApiModelProperty(name = "amount" , value = "划转金额")
-    private BigDecimal amount;
-
-    @Excel(name = "f_created_at", orderNum = "15")
-    @ApiModelProperty(name = "createdAt" , value = "创建时间")
-    private Long createdAt;
-
-    @Excel(name = "f_type", orderNum = "15")
-    @ApiModelProperty(name = "f_type" , value = "类型")
-    private Integer type;
-
-    @Excel(name = "f_transaction_id", orderNum = "15")
-    @ApiModelProperty(name = "transactionId" , value = "创建时间")
-    private Long transactionId;
-    @Tolerate
-    public MarketNftInfoExcel() {
-    }
+    @Excel(name = "network", orderNum = "4")
+    private String network;
 
     public static List<String> getParams(){
         List<String> params= ImmutableList.of(
