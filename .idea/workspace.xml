@@ -5,54 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a1b659-603a-4df4-ae86-5f2ee3d186aa" name="Default" comment="提交">
-      <change afterPath="$PROJECT_DIR$/settlement/sql/风控离线资产.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/bean/LevelTwoPriceFlowDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/bean/NftInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/bean/UserNftFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/config/HttpConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/config/SSLSocketClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/enums/BaseCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/enums/MetadataCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/exception/BizException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/exception/RpcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/exception/ServerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/GetTokenId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/GetTokenId2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/NftInfoToExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/String处理1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/String处理2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/sql3处理.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/sql处理.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/sql处理2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/二级市场价格不一致赔付订单跑数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/准备物料.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/处理CommodityCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/字符串处理1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/字符串输出1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/字符串输出2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/比对tokenId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/HttpHostUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/ImageBase64Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/ImgUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/NumericUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/ParamUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/Web3jUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/OkHttpLoggerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/RpcMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/TypeHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/Web3jHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/export_result (6).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/export_result (7).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/export_result (8).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/export_result (9).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/订单处理失败sql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settlement/src/main/resources/export_result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table-book/src/main/java/com/renshihan/study/table/klks/WalletTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settlement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/bean/MarketNftInfoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/bean/MarketNftInfoExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/风控离线数据.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/handle/风控离线数据.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/HPoiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils/HPoiUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/Web3jHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/settlement/src/main/java/org/web3j/abi/Web3jHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +76,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="customMavenHome" value="$USER_HOME$/Downloads/apache-maven-3.9.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -155,6 +115,9 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="836" />
     <option name="y" value="334" />
@@ -248,26 +211,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/settlement/src/main/resources" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.5039267" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.WalletTest.executor": "Run",
+    "Application.com.renshihan.study.table.klks.WalletTest.executor": "Run",
+    "Application.订单处理失败sql.executor": "Run",
+    "Maven.java_base [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/renshihan/ideaProject/java_base/settlement/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/settlement/src/main/resources" />
@@ -277,11 +241,11 @@
       <recent name="$PROJECT_DIR$/settlement/src/main/java/com/renshihan/settlement/utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.renshihan.study.table.klks" />
       <recent name="com.renshihan.settlement.handle" />
       <recent name="com.renshihan.settlement.bean" />
       <recent name="com.renshihan.settlement.config" />
       <recent name="com.renshihan.settlement.utils" />
-      <recent name="com.renshihan.settlement.exception" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -289,37 +253,29 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.二级市场价格不一致赔付订单跑数">
+  <component name="RunManager" selected="Application.订单处理失败sql">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="准备物料" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.准备物料" />
-      <module name="settlement" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.renshihan.settlement.handle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="字符串输出1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.字符串输出1" />
-      <module name="settlement" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.renshihan.settlement.handle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,13 +294,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="二级市场价格不一致赔付订单跑数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.二级市场价格不一致赔付订单跑数" />
+    <configuration name="WalletTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.test.WalletTest" />
       <module name="settlement" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.renshihan.settlement.handle.*" />
+          <option name="PATTERN" value="com.renshihan.settlement.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,8 +398,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sql3处理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.sql3处理" />
+    <configuration name="com.renshihan.study.table.klks.WalletTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.study.table.klks.WalletTest" />
+      <module name="table-book" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.renshihan.study.table.klks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="订单处理失败sql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.订单处理失败sql" />
       <module name="settlement" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -456,13 +426,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="sql3处理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.renshihan.settlement.handle.sql3处理" />
+      <module name="settlement" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.renshihan.settlement.handle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -483,31 +456,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.准备物料" />
-      <item itemvalue="Application.字符串输出1" />
+      <item itemvalue="Application.订单处理失败sql" />
+      <item itemvalue="Application.com.renshihan.study.table.klks.WalletTest" />
+      <item itemvalue="Application.WalletTest" />
       <item itemvalue="Application.字符串输出2" />
-      <item itemvalue="Application.二级市场价格不一致赔付订单跑数" />
       <item itemvalue="Application.sql3处理" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.二级市场价格不一致赔付订单跑数" />
+        <item itemvalue="Application.订单处理失败sql" />
+        <item itemvalue="Application.com.renshihan.study.table.klks.WalletTest" />
+        <item itemvalue="Application.WalletTest" />
         <item itemvalue="Application.sql3处理" />
         <item itemvalue="Application.字符串输出2" />
-        <item itemvalue="Application.字符串输出1" />
-        <item itemvalue="Application.准备物料" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -595,6 +567,15 @@
       <workItem from="1663826278345" duration="3491000" />
       <workItem from="1664272070014" duration="18998000" />
       <workItem from="1664438540485" duration="14707000" />
+      <workItem from="1719388704184" duration="1809000" />
+      <workItem from="1719539909050" duration="1384000" />
+      <workItem from="1719999700269" duration="787000" />
+      <workItem from="1720164416896" duration="1000" />
+      <workItem from="1723774996928" duration="2604000" />
+      <workItem from="1728877751225" duration="3926000" />
+      <workItem from="1730167522755" duration="3916000" />
+      <workItem from="1730253854292" duration="11000" />
+      <workItem from="1730965783010" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1608780995215</created>
@@ -667,7 +648,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交" />

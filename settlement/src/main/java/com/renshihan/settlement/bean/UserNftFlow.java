@@ -3,13 +3,11 @@ package com.renshihan.settlement.bean;
 import cn.afterturn.easypoi.excel.annotation.Excel;
 import com.google.common.collect.ImmutableList;
 import io.swagger.annotations.ApiModelProperty;
-import jnr.ffi.annotations.In;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 import lombok.experimental.Tolerate;
-import org.web3j.abi.datatypes.Int;
 
 import java.math.BigDecimal;
 import java.util.List;

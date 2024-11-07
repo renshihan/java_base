@@ -7,7 +7,6 @@ import com.renshihan.settlement.utils.HttpHostUtil;
 import com.renshihan.settlement.utils.ParamUtils;
 import com.renshihan.settlement.utils.Web3jUtil;
 import io.netty.util.internal.ConcurrentSet;
-import jnr.ffi.annotations.In;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.web3j.abi.datatypes.Int;
