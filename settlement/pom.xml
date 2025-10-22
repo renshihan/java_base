@@ -48,6 +48,16 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.dtflys.forest</groupId>
+            <artifactId>forest-core</artifactId>
+            <version>1.5.36</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dtflys.forest</groupId>
+            <artifactId>forest</artifactId>
+            <version>1.5.36</version>
+        </dependency>
+        <dependency>
             <groupId>cn.gjing</groupId>
             <artifactId>tools-common</artifactId>
             <version>1.2.3</version>
